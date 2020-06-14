@@ -1,0 +1,77 @@
+*
+
+{
+	 margin:0;
+	padding:0;
+} 
+
+header 
+{
+	background-image: url(logo1.JPG);
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 1px;
+	
+}
+.main-nav li 
+{
+	display: inline-block;
+	
+}
+.main-nav li a 
+{
+	color: lightyellow;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:"Roboto", sans-serif;
+	font-size: 15px; 
+}
+.main-nav li.active a 
+{
+	border:3px solid black;
+	background-color: black;
+}
+.Title {
+	color: black ;
+	background-position: center;
+	margin-right: 70px 50px;
+	font-size: 20px;
+	
+}
+
+body{
+	
+	background-color:lightgrey;
+	}
+p{
+	color:lightyellow;
+	margin-left:12px;
+}
+h2{
+	color:black;
+	margin-left:12px;
+}
+h1{
+color:grey;	
+margin-left:12px;
+}
+.Rdiv{
+background-color:grey;
+	height: 9vh;
+	color:lightyellow;
+	
+}
+.button1{
+
+	background-color:grey;
+	
+	padding:5px 100px;
+	border:none;
+	
+}
