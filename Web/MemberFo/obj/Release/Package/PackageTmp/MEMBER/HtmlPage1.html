@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+ 
+</asp:Content>
+
+<html>
+
+<body>
+
+    <h4> Please Sign Up </h4>
+    <form action="http://sig.php" method="post" target="_blank" onsubmit="try {return window.confirm(&quot;قد لا يعمل هذا النموذج كما يجب بسبب بعض القيود الأمنية.\nأتريد المتابعة؟&quot;);} catch (e) {return false;}">
+        <p>
+            <label>
+                Name:<br>
+                <input name="Name" type="text" size="20" maxlength="35">*
+            </label>
+        </p>
+        <p>
+            <label>
+                National ID:<br>
+                <input name="NationalId" type="number" size="20" maxlength="35">*
+            </label>
+        </p>
+
+        <p>
+            <label>
+                DOB:<br>
+                <input name="date" type="Date">(yyyy-mm-dd) *
+            </label>
+        </p>
+        </p>
+        <br />
+        <label>
+            Gender:<br>
+            <select name="gender">
+                <option>Fmale</option>
+                <option>male</option>
+            </select>*
+        </label>
+        </p>
+
+
+        <p>
+
+            <strong>
+                Active:
+            </strong>
+            <label>
+                Yes
+                <input name="Active" type="radio" value="Yes" checed />
+            </label>
+        </p>
+        <label>
+            No
+            <input name="Active" type="radio" value="No" />
+        </label>
+
+        <p>
+
+            <strong>
+                Document:
+            </strong>
+            <label>
+                CV
+                <input name="document" type="checkbox" value="CV" />
+            </label>
+        </p>
+        <label>
+            Academic Record
+            <input name="document" type="checkbox" value="Academic Record" checed />
+        </label>
+        <p>
+            <label>
+                University Letter
+                <input name="document" type="checkbox" value="University Letter" checed />
+            </label>
+
+
+            <br>
+        <p>
+            <input type="submit" value="Insert">
+            <input type="reset" value="Delete">
+
+        </p>
+        If you have account please <p> <a href="http://login.html" target="_blank"> Login  </a> </p>
+        <br>
+        <br>
+    </form>
+
+</body>
+</html> 
